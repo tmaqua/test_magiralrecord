@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Header.h"
+#import "Person.h"
 
 @interface AddDataViewController:UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;

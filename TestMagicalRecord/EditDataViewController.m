@@ -17,6 +17,7 @@
     _ageTextField.text = [[NSString alloc] initWithFormat:@"%@",_detailPerson.age];
 }
 
+
 - (IBAction)editDataButton:(id)sender {
     if (_nameTextField.text.length > 0 && _ageTextField.text.length > 0) {
         _detailPerson.name = _nameTextField.text;

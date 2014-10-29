@@ -16,20 +16,6 @@
     _showDataTableView.delegate = self;
     _showDataTableView.dataSource = self;
     
-    [Person MR_truncateAll];
-    
-    Person *testPerson = [Person MR_createEntity];
-    testPerson.name = @"testPerson";
-    testPerson.age = @39;
-    
-    [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreWithCompletion:^(BOOL success, NSError *error) {
-        if (success) {
-            NSLog(@"You successfully saved your context.");
-        } else if (error) {
-            NSLog(@"Error saving context: %@", error.description);
-        }
-    }];
-    
     [self refreshData];
 }
 
@@ -48,8 +34,6 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
     Person *person = [_dataArray objectAtIndex:indexPath.row];
-    
-    NSLog(@"Name: %@", person.name);
     cell.textLabel.text = person.name;
     
     
@@ -58,12 +42,14 @@
 
 - (void)refreshData{
     [_dataArray removeAllObjects];
-    NSArray *allRecords = [Person MR_findAll];
+    NSArray *allRecords = [Person findAll];
     _dataArray = [allRecords mutableCopy];
     [_showDataTableView reloadData];
 }
 
 - (IBAction)reloadDataButton:(id)sender {
+   
+    
     [self refreshData];
 }
 

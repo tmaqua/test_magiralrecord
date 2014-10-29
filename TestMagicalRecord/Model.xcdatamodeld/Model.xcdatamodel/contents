@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EatList" representedClassName="EatList" syncable="YES">
+        <attribute name="ate_at" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="foods" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="food" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Food" inverseName="eatlist" inverseEntity="Food" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" syncable="YES">
+        <attribute name="food_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="food_type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="eatlist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EatList" inverseName="food" inverseEntity="EatList" syncable="YES"/>
+    </entity>
     <entity name="Person" representedClassName="Person" syncable="YES">
         <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Person" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="Person" positionX="43" positionY="60" width="128" height="75"/>
+        <element name="EatList" positionX="-216" positionY="-81" width="128" height="88"/>
+        <element name="Food" positionX="108" positionY="-99" width="128" height="103"/>
     </elements>
 </model>

@@ -18,6 +18,12 @@
 		2E169E9D19FF90E50048FA88 /* _Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E169E9A19FF90E50048FA88 /* _Person.m */; };
 		2E169E9E19FF90E50048FA88 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E169E9C19FF90E50048FA88 /* Person.m */; };
 		2E169EA419FFAAD00048FA88 /* ShowData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E169EA319FFAAD00048FA88 /* ShowData.m */; };
+		2E60B0001A00935500AA3035 /* _EatList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60AFF91A00935500AA3035 /* _EatList.m */; };
+		2E60B0011A00935500AA3035 /* _Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60AFFB1A00935500AA3035 /* _Food.m */; };
+		2E60B0021A00935500AA3035 /* EatList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60AFFD1A00935500AA3035 /* EatList.m */; };
+		2E60B0031A00935500AA3035 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60AFFF1A00935500AA3035 /* Food.m */; };
+		2E60B0061A00960200AA3035 /* ShowParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60B0051A00960200AA3035 /* ShowParentViewController.m */; };
+		2E60B0091A00969F00AA3035 /* ShowChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60B0081A00969F00AA3035 /* ShowChildViewController.m */; };
 		2EC6832919FFDBBE00CDCFE8 /* EditDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6832819FFDBBE00CDCFE8 /* EditDataViewController.m */; };
 		2EE0CD8819FFAF6100B67978 /* AddDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0CD8719FFAF6100B67978 /* AddDataViewController.m */; };
 /* End PBXBuildFile section */
@@ -49,9 +55,20 @@
 		2E169E9A19FF90E50048FA88 /* _Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Person.m; path = CoreData/_Person.m; sourceTree = "<group>"; };
 		2E169E9B19FF90E50048FA88 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = CoreData/Person.h; sourceTree = "<group>"; };
 		2E169E9C19FF90E50048FA88 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = CoreData/Person.m; sourceTree = "<group>"; };
-		2E169E9F19FF91E70048FA88 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		2E169EA219FFAAD00048FA88 /* ShowData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowData.h; sourceTree = "<group>"; };
 		2E169EA319FFAAD00048FA88 /* ShowData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowData.m; sourceTree = "<group>"; };
+		2E60AFF81A00935500AA3035 /* _EatList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _EatList.h; path = CoreData/_EatList.h; sourceTree = "<group>"; };
+		2E60AFF91A00935500AA3035 /* _EatList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _EatList.m; path = CoreData/_EatList.m; sourceTree = "<group>"; };
+		2E60AFFA1A00935500AA3035 /* _Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Food.h; path = CoreData/_Food.h; sourceTree = "<group>"; };
+		2E60AFFB1A00935500AA3035 /* _Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Food.m; path = CoreData/_Food.m; sourceTree = "<group>"; };
+		2E60AFFC1A00935500AA3035 /* EatList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EatList.h; path = CoreData/EatList.h; sourceTree = "<group>"; };
+		2E60AFFD1A00935500AA3035 /* EatList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EatList.m; path = CoreData/EatList.m; sourceTree = "<group>"; };
+		2E60AFFE1A00935500AA3035 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = CoreData/Food.h; sourceTree = "<group>"; };
+		2E60AFFF1A00935500AA3035 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Food.m; path = CoreData/Food.m; sourceTree = "<group>"; };
+		2E60B0041A00960200AA3035 /* ShowParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowParentViewController.h; sourceTree = "<group>"; };
+		2E60B0051A00960200AA3035 /* ShowParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowParentViewController.m; sourceTree = "<group>"; };
+		2E60B0071A00969F00AA3035 /* ShowChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowChildViewController.h; sourceTree = "<group>"; };
+		2E60B0081A00969F00AA3035 /* ShowChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowChildViewController.m; sourceTree = "<group>"; };
 		2EC6832719FFDBBE00CDCFE8 /* EditDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDataViewController.h; sourceTree = "<group>"; };
 		2EC6832819FFDBBE00CDCFE8 /* EditDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDataViewController.m; sourceTree = "<group>"; };
 		2EE0CD8619FFAF6100B67978 /* AddDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDataViewController.h; sourceTree = "<group>"; };
@@ -115,7 +132,6 @@
 				2E169EA019FF92920048FA88 /* Model */,
 				2E169E7419FF8F680048FA88 /* AppDelegate.h */,
 				2E169E7519FF8F680048FA88 /* AppDelegate.m */,
-				2E169E9F19FF91E70048FA88 /* Header.h */,
 				2E169E7D19FF8F680048FA88 /* Main.storyboard */,
 				2E169E8019FF8F680048FA88 /* Images.xcassets */,
 				2E169E8219FF8F680048FA88 /* LaunchScreen.xib */,
@@ -153,11 +169,10 @@
 		2E169EA019FF92920048FA88 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E60B00E1A00995A00AA3035 /* Food_Model */,
+				2E60B00D1A00993E00AA3035 /* EatList_Model */,
+				2E60AFF71A008BA700AA3035 /* Person_Model */,
 				2E169E7719FF8F680048FA88 /* Model.xcdatamodeld */,
-				2E169E9919FF90E50048FA88 /* _Person.h */,
-				2E169E9A19FF90E50048FA88 /* _Person.m */,
-				2E169E9B19FF90E50048FA88 /* Person.h */,
-				2E169E9C19FF90E50048FA88 /* Person.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -171,8 +186,45 @@
 				2EE0CD8719FFAF6100B67978 /* AddDataViewController.m */,
 				2EC6832719FFDBBE00CDCFE8 /* EditDataViewController.h */,
 				2EC6832819FFDBBE00CDCFE8 /* EditDataViewController.m */,
+				2E60B0041A00960200AA3035 /* ShowParentViewController.h */,
+				2E60B0051A00960200AA3035 /* ShowParentViewController.m */,
+				2E60B0071A00969F00AA3035 /* ShowChildViewController.h */,
+				2E60B0081A00969F00AA3035 /* ShowChildViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		2E60AFF71A008BA700AA3035 /* Person_Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E169E9919FF90E50048FA88 /* _Person.h */,
+				2E169E9A19FF90E50048FA88 /* _Person.m */,
+				2E169E9B19FF90E50048FA88 /* Person.h */,
+				2E169E9C19FF90E50048FA88 /* Person.m */,
+			);
+			name = Person_Model;
+			sourceTree = "<group>";
+		};
+		2E60B00D1A00993E00AA3035 /* EatList_Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E60AFF91A00935500AA3035 /* _EatList.m */,
+				2E60AFF81A00935500AA3035 /* _EatList.h */,
+				2E60AFFC1A00935500AA3035 /* EatList.h */,
+				2E60AFFD1A00935500AA3035 /* EatList.m */,
+			);
+			name = EatList_Model;
+			sourceTree = "<group>";
+		};
+		2E60B00E1A00995A00AA3035 /* Food_Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E60AFFA1A00935500AA3035 /* _Food.h */,
+				2E60AFFB1A00935500AA3035 /* _Food.m */,
+				2E60AFFE1A00935500AA3035 /* Food.h */,
+				2E60AFFF1A00935500AA3035 /* Food.m */,
+			);
+			name = Food_Model;
 			sourceTree = "<group>";
 		};
 		B7DE4F98F05CC84E9E08D6D4 /* Pods */ = {
@@ -323,9 +375,15 @@
 				2EE0CD8819FFAF6100B67978 /* AddDataViewController.m in Sources */,
 				2E169E7619FF8F680048FA88 /* AppDelegate.m in Sources */,
 				2EC6832919FFDBBE00CDCFE8 /* EditDataViewController.m in Sources */,
+				2E60B0061A00960200AA3035 /* ShowParentViewController.m in Sources */,
+				2E60B0021A00935500AA3035 /* EatList.m in Sources */,
 				2E169E7919FF8F680048FA88 /* Model.xcdatamodeld in Sources */,
+				2E60B0091A00969F00AA3035 /* ShowChildViewController.m in Sources */,
+				2E60B0011A00935500AA3035 /* _Food.m in Sources */,
 				2E169EA419FFAAD00048FA88 /* ShowData.m in Sources */,
 				2E169E7319FF8F680048FA88 /* main.m in Sources */,
+				2E60B0031A00935500AA3035 /* Food.m in Sources */,
+				2E60B0001A00935500AA3035 /* _EatList.m in Sources */,
 				2E169E9D19FF90E50048FA88 /* _Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

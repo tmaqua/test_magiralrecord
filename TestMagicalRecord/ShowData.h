@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Header.h"
+#import "Person.h"
 #import "EditDataViewController.h"
 
 @interface ShowData:UIViewController<UITableViewDelegate, UITableViewDataSource>
