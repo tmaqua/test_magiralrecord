@@ -16,8 +16,8 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Person" positionX="43" positionY="60" width="128" height="75"/>
-        <element name="EatList" positionX="-216" positionY="-81" width="128" height="88"/>
+        <element name="EatList" positionX="-216" positionY="-81" width="128" height="90"/>
         <element name="Food" positionX="108" positionY="-99" width="128" height="103"/>
+        <element name="Person" positionX="43" positionY="60" width="128" height="75"/>
     </elements>
 </model>

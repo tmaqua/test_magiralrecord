@@ -70,7 +70,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="OneToMany" id="jZk-Hh-evn"/>
+                    <navigationItem key="navigationItem" title="OneToMany" id="jZk-Hh-evn">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="NKi-VK-b8r">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lqc-GD-Rpg">
+                                <rect key="frame" x="-23" y="-15" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testButton:" destination="DMN-rO-jtX" eventType="touchUpInside" id="SQn-mD-xvV"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="parentTableView" destination="Dm9-fX-MEb" id="JxQ-3U-KHo"/>
                     </connections>

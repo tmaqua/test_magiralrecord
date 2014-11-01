@@ -16,5 +16,7 @@
 @property (nonatomic) NSMutableArray *dataArray;
 @property (nonatomic) NSIndexPath *selectedIndexPath;
 
+- (IBAction)testButton:(id)sender;
+@property (nonatomic) BOOL testSelect;
 
 @end
